@@ -6,6 +6,7 @@ function verifyToken(req, res, next) {
     return res.status(401).json({
       message: "Access Denied, Token Missing"
     })
+  }
     try {
       const decode = jwt.verify(token, process.env.JWT_SECRET)
       req.user = decode
@@ -13,8 +14,7 @@ function verifyToken(req, res, next) {
     } catch (e) {
       return res.status(403).json({
         message: "Invalid Or Expired Token"
-      })
-    }
+    })
   }
 }
-module.exports = verifyToken.js
+module.exports = verifyToken
