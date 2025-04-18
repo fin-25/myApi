@@ -1,9 +1,10 @@
 const express = require("express")
 const router = express.Router()
-const {register, login} = require("../controllers/authController.js")
+const validateRegisterBody = require("../middlewares/bodyRequestValid.js")
+const ensureEmailUnique = require("../services/checkingEmailExists.js")
+const userRegistration = require("../controllers/authController.js")
 
-router.post("/register",register)
-router.post("/login", login)
+router.post("/register",validateRegisterBody, ensureEmailUnique, userRegistration)
 
 
 

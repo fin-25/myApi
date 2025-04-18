@@ -12,4 +12,20 @@ const pool = mysql.createPool({
 })
 const connection = pool.promise()
 
+connection.getConnection()
+.then(conn => {
+  console.log("Successfully Connected To The Database")
+  conn.release()
+})
+.catch(err => {
+  console.log("Database Connection Failed: ", err)
+  process.exit(1)
+})
+pool.on("connection", (connection) => {
+  console.log("New connection established with ID: ", connection.threadId)
+})
+
+pool.on("error", (err) => {
+  console.error("Database connection error: ", err)
+})
 module.exports = connection 

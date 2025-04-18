@@ -2,6 +2,10 @@ function isValidUUID(uuid) {
   const data = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(uuid)
   return data
 }
+function isValidUsername(username) {
+  const data = /^[a-zA-Z0-9_.-]{3,16}$/.test(username)
+  return data
+}
 function isValidEmail(email) {
   const data = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)
   return data
@@ -12,6 +16,7 @@ function isValidPassword(password) {
 }
 module.exports = {
   isValidUUID,
+  isValidUsername,
   isValidEmail,
   isValidPassword
 }

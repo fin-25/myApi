@@ -1,11 +1,11 @@
 const connection = require("../config/db.js")
 const respond = require("../utils/wrapResponse.js")
+const util = require("util")
 const createDuration = require("../utils/createDuration.js")
 const mask = require("../utils/mask.js")
 const {debugLog, debugWarn, debugErr} = require("../utils/debug.js")
 const {isValidUUID} = require("../utils/validReg.js")
 
-const DEBUG = process.env.DEBUG === "true"
 async function getDatabase(id) {
   const startISO = new Date().toISOString()
   const startTimesTamp = Date.now()
@@ -51,7 +51,7 @@ async function getDatabase(id) {
     })
   }catch(e) {
     console.error(`[DB ERROR] ${e instanceof Error ? e.message : e}`)
-    debugErr(startISO, "[DB ERROR DEBUG] Full Error Object: ", e)
+    debugErr(startISO, "[DB ERROR DEBUG] Full Error Object: ", util.inspect(e))
   return respond({
     success: false,
     code: 500,

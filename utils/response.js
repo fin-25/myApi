@@ -15,7 +15,7 @@ function response({
     message,
     start,
     end,
-    ms: `${durationMs}ms`
+    ms: `${durationMs}`
   }
 }
 module.exports = response
