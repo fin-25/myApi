@@ -1,0 +1,129 @@
+[2025-05-03 03:52:05] INFO: Starting validation for request body:
+[2025-05-03 03:52:05] INFO: Validation successful for request body
+[2025-05-03 03:52:05] INFO: Starting registration process for email: saufii660@gmail.com
+[2025-05-03 03:52:05] INFO: checking email duplicate
+[2025-05-03 03:52:05] INFO: successfully email not duplicate
+[2025-05-03 03:52:08] INFO: otp sent to email: saufii660@gmail.com
+[2025-05-03 03:52:08] INFO: Registration successful for email: saufii660@gmail.com
+[2025-05-03 03:52:08] INFO: POST /auth/register 200 - 3848ms
+[2025-05-03 03:52:59] INFO: Starting validation for request body:
+[2025-05-03 03:53:00] INFO: Validation successful for request body
+[2025-05-03 03:53:00] INFO: Starting registration process for email: saufii660@gmail.com
+[2025-05-03 03:53:00] INFO: checking email duplicate
+[2025-05-03 03:53:00] INFO: successfully email not duplicate
+[2025-05-03 03:53:04] INFO: otp sent to email: saufii660@gmail.com
+[2025-05-03 03:53:04] INFO: Registration successful for email: saufii660@gmail.com
+[2025-05-03 03:53:04] INFO: POST /auth/register 200 - 4204ms
+[2025-05-03 03:54:01] INFO: Starting OTP verification for email: saufii450@gmail.com
+[2025-05-03 03:54:01] INFO: Verifying OTP for email: saufii450@gmail.com
+[2025-05-03 03:54:01] WARN: OTP not found or expired for email: saufii450@gmail.com
+[2025-05-03 03:54:01] ERROR: Error during OTP verification for email: saufii450@gmail.com | Error: Error: invalid otp or expired otp
+    at verifyOtpService (/data/data/com.termux/files/home/login-api/services/auth/register/verifyOtpService.js:17:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async verifyOtpContoller (/data/data/com.termux/files/home/login-api/controllers/auth/register/verifyOtpController.js:22:18)
+[2025-05-03 03:54:01] ERROR: OTP verification failed for email: saufii450@gmail.com | Error: invalid otp or expired otp
+[2025-05-03 03:54:01] ERROR: POST /auth/verify-otp 500 - 42ms
+[2025-05-03 03:54:27] INFO: Starting OTP verification for email: saufii450@gmail.com
+[2025-05-03 03:54:27] INFO: Verifying OTP for email: saufii450@gmail.com
+[2025-05-03 03:54:27] WARN: OTP not found or expired for email: saufii450@gmail.com
+[2025-05-03 03:54:27] ERROR: Error during OTP verification for email: saufii450@gmail.com | Error: Error: invalid otp or expired otp
+    at verifyOtpService (/data/data/com.termux/files/home/login-api/services/auth/register/verifyOtpService.js:17:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async verifyOtpContoller (/data/data/com.termux/files/home/login-api/controllers/auth/register/verifyOtpController.js:22:18)
+[2025-05-03 03:54:27] ERROR: OTP verification failed for email: saufii450@gmail.com | Error: invalid otp or expired otp
+[2025-05-03 03:54:27] ERROR: POST /auth/verify-otp 500 - 23ms
+[2025-05-03 03:54:32] INFO: Starting validation for request body:
+[2025-05-03 03:54:32] INFO: Validation successful for request body
+[2025-05-03 03:54:32] INFO: Starting registration process for email: saufii660@gmail.com
+[2025-05-03 03:54:32] INFO: checking email duplicate
+[2025-05-03 03:54:32] INFO: successfully email not duplicate
+[2025-05-03 03:54:35] INFO: otp sent to email: saufii660@gmail.com
+[2025-05-03 03:54:35] INFO: Registration successful for email: saufii660@gmail.com
+[2025-05-03 03:54:35] INFO: POST /auth/register 200 - 3167ms
+[2025-05-03 03:55:17] INFO: Starting OTP verification for email: saufii450@gmail.com
+[2025-05-03 03:55:17] INFO: Verifying OTP for email: saufii450@gmail.com
+[2025-05-03 03:55:17] WARN: OTP not found or expired for email: saufii450@gmail.com
+[2025-05-03 03:55:17] ERROR: Error during OTP verification for email: saufii450@gmail.com | Error: Error: invalid otp or expired otp
+    at verifyOtpService (/data/data/com.termux/files/home/login-api/services/auth/register/verifyOtpService.js:17:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async verifyOtpContoller (/data/data/com.termux/files/home/login-api/controllers/auth/register/verifyOtpController.js:22:18)
+[2025-05-03 03:55:17] ERROR: OTP verification failed for email: saufii450@gmail.com | Error: invalid otp or expired otp
+[2025-05-03 03:55:17] ERROR: POST /auth/verify-otp 500 - 41ms
+[2025-05-03 03:55:41] INFO: Starting OTP verification for email: saufii450@gmail.com
+[2025-05-03 03:55:41] INFO: Verifying OTP for email: saufii450@gmail.com
+[2025-05-03 03:55:41] WARN: OTP not found or expired for email: saufii450@gmail.com
+[2025-05-03 03:55:41] ERROR: Error during OTP verification for email: saufii450@gmail.com | Error: Error: invalid otp or expired otp
+    at verifyOtpService (/data/data/com.termux/files/home/login-api/services/auth/register/verifyOtpService.js:17:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async verifyOtpContoller (/data/data/com.termux/files/home/login-api/controllers/auth/register/verifyOtpController.js:22:18)
+[2025-05-03 03:55:41] ERROR: OTP verification failed for email: saufii450@gmail.com | Error: invalid otp or expired otp
+[2025-05-03 03:55:41] ERROR: POST /auth/verify-otp 500 - 30ms
+[2025-05-03 03:55:45] INFO: Starting validation for request body:
+[2025-05-03 03:55:45] INFO: Validation successful for request body
+[2025-05-03 03:55:45] INFO: Starting registration process for email: saufii660@gmail.com
+[2025-05-03 03:55:45] INFO: checking email duplicate
+[2025-05-03 03:55:45] INFO: successfully email not duplicate
+[2025-05-03 03:55:49] INFO: otp sent to email: saufii660@gmail.com
+[2025-05-03 03:55:49] INFO: Registration successful for email: saufii660@gmail.com
+[2025-05-03 03:55:49] INFO: POST /auth/register 200 - 3956ms
+[2025-05-03 03:56:11] INFO: Starting OTP verification for email: saufii450@gmail.com
+[2025-05-03 03:56:11] INFO: Verifying OTP for email: saufii450@gmail.com
+[2025-05-03 03:56:11] WARN: OTP not found or expired for email: saufii450@gmail.com
+[2025-05-03 03:56:11] ERROR: Error during OTP verification for email: saufii450@gmail.com | Error: Error: invalid otp or expired otp
+    at verifyOtpService (/data/data/com.termux/files/home/login-api/services/auth/register/verifyOtpService.js:17:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async verifyOtpContoller (/data/data/com.termux/files/home/login-api/controllers/auth/register/verifyOtpController.js:22:18)
+[2025-05-03 03:56:11] ERROR: OTP verification failed for email: saufii450@gmail.com | Error: invalid otp or expired otp
+[2025-05-03 03:56:11] ERROR: POST /auth/verify-otp 500 - 44ms
+[2025-05-03 03:56:39] INFO: Starting OTP verification for email: saufii660@gmail.com
+[2025-05-03 03:56:39] INFO: Verifying OTP for email: saufii660@gmail.com
+[2025-05-03 03:56:39] INFO: OTP secret retrieved for email: saufii660@gmail.com
+[2025-05-03 03:56:39] INFO: Registration data found for email: saufii660@gmail.com
+[2025-05-03 03:56:39] INFO: Inserting new user: fin85 (ID: aa087198-c50d-487a-8c1a-783772220213) into the database.
+[2025-05-03 03:56:39] INFO: user: fin85 (ID:  aa087198-c50d-487a-8c1a-783772220213) successfully inserted into the database
+[2025-05-03 03:56:39] INFO: User fin85 successfully created
+[2025-05-03 03:56:39] INFO: OTP successfully verified for email: saufii660@gmail.com
+[2025-05-03 03:56:39] ERROR: OTP verification failed for email: saufii660@gmail.com | Error: Cannot read properties of undefined (reading 'refreshToken')
+[2025-05-03 03:56:39] ERROR: POST /auth/verify-otp 500 - 110ms
+[2025-05-03 03:57:03] INFO: Starting OTP verification for email: saufii660@gmail.com
+[2025-05-03 03:57:03] INFO: Verifying OTP for email: saufii660@gmail.com
+[2025-05-03 03:57:03] WARN: OTP not found or expired for email: saufii660@gmail.com
+[2025-05-03 03:57:03] ERROR: Error during OTP verification for email: saufii660@gmail.com | Error: Error: invalid otp or expired otp
+    at verifyOtpService (/data/data/com.termux/files/home/login-api/services/auth/register/verifyOtpService.js:17:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async verifyOtpContoller (/data/data/com.termux/files/home/login-api/controllers/auth/register/verifyOtpController.js:22:18)
+[2025-05-03 03:57:03] ERROR: OTP verification failed for email: saufii660@gmail.com | Error: invalid otp or expired otp
+[2025-05-03 03:57:03] ERROR: POST /auth/verify-otp 500 - 29ms
+[2025-05-03 03:57:08] INFO: Starting OTP verification for email: saufii660@gmail.com
+[2025-05-03 03:57:08] INFO: Verifying OTP for email: saufii660@gmail.com
+[2025-05-03 03:57:08] WARN: OTP not found or expired for email: saufii660@gmail.com
+[2025-05-03 03:57:08] ERROR: Error during OTP verification for email: saufii660@gmail.com | Error: Error: invalid otp or expired otp
+    at verifyOtpService (/data/data/com.termux/files/home/login-api/services/auth/register/verifyOtpService.js:17:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async verifyOtpContoller (/data/data/com.termux/files/home/login-api/controllers/auth/register/verifyOtpController.js:22:18)
+[2025-05-03 03:57:08] ERROR: OTP verification failed for email: saufii660@gmail.com | Error: invalid otp or expired otp
+[2025-05-03 03:57:08] ERROR: POST /auth/verify-otp 500 - 20ms
+[2025-05-03 03:57:11] INFO: Starting validation for request body:
+[2025-05-03 03:57:11] INFO: Validation successful for request body
+[2025-05-03 03:57:11] INFO: Starting registration process for email: saufii660@gmail.com
+[2025-05-03 03:57:11] INFO: checking email duplicate
+[2025-05-03 03:57:11] WARN: Email saufii660@gmail.com already exists in database.
+[2025-05-03 03:57:11] WARN: [register blocked] email: saufii660@gmail.com already exists.
+[2025-05-03 03:57:11] ERROR: Register service failed for saufii660@gmail.com | Error: email already exists, please use another email
+    at registerService (/data/data/com.termux/files/home/login-api/services/auth/register/registerService.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async registerController (/data/data/com.termux/files/home/login-api/controllers/auth/register/registerController.js:12:21)
+[2025-05-03 03:57:11] ERROR: Registration failed for email: saufii660@gmail.com | Error: email already exists, please use another email
+[2025-05-03 03:57:11] ERROR: POST /auth/register 400 - 44ms
+[2025-05-03 03:57:25] INFO: Starting validation for request body:
+[2025-05-03 03:57:25] INFO: Validation successful for request body
+[2025-05-03 03:57:25] INFO: Starting registration process for email: saufii660@gmail.com
+[2025-05-03 03:57:25] INFO: checking email duplicate
+[2025-05-03 03:57:25] WARN: Email saufii660@gmail.com already exists in database.
+[2025-05-03 03:57:25] WARN: [register blocked] email: saufii660@gmail.com already exists.
+[2025-05-03 03:57:25] ERROR: Register service failed for saufii660@gmail.com | Error: email already exists, please use another email
+    at registerService (/data/data/com.termux/files/home/login-api/services/auth/register/registerService.js:16:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async registerController (/data/data/com.termux/files/home/login-api/controllers/auth/register/registerController.js:12:21)
+[2025-05-03 03:57:25] ERROR: Registration failed for email: saufii660@gmail.com | Error: email already exists, please use another email
+[2025-05-03 03:57:25] ERROR: POST /auth/register 400 - 35ms
